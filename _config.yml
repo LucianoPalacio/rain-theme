@@ -1,0 +1,33 @@
+# Site settings
+title:          Rain
+description:    "Rain is a simple and clean Jekyll theme with focus on content."
+
+# Author
+author:
+  name:         Your Name
+  email:        example@email.com
+  url:          #You can put a url to your website
+
+# Build settings
+markdown:       kramdown
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Related posts settings
+related_posts_section:
+  max_count:        5
+  min_common_tags:  2
+
+# Links to social media
+social:
+  email: example@email.com
+  github: https://github.com
+  twitter: https://twitter.com
+  linkedin: https://linkedin.com/
